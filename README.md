@@ -10,7 +10,7 @@ JSON: {"name": "John", "email": "john.doe@mail.com", "password": "securepwd12345
 
 Response:
 
-"data": { "name": "John", "email": "john.doe@mail.com", "updated_at": "2019-03-15 08:10:45", "created_at": "2019-03-15 08:10:45", "id": 12, "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf" }
+{"data": { "name": "John", "email": "john.doe@mail.com", "updated_at": "2019-03-15 08:10:45", "created_at": "2019-03-15 08:10:45", "id": 12, "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf" }}
 ## Login
 URL: /api/login
 
@@ -18,7 +18,19 @@ Method: POST
 
 JSON: {"email": "john.doe@mail.com", "password": "securepwd12345"}
 
-Response: api_token
+Response: 
+
+{
+    "data": {
+        "id": 13,
+        "name": "John",
+        "email": "john.doe@toptal.com",
+        "email_verified_at": null,
+        "created_at": "2019-03-18 12:50:37",
+        "updated_at": "2019-03-19 08:22:55",
+        "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"
+    }
+}
 ## Logout
 URL: /api/login
 
