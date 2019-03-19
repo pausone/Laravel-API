@@ -50,6 +50,8 @@ URL: /api/products/[id]
 
 Method: GET
 
+Response: Object with parameters id, name, description, price, image
+
 ## Add product
 URL: /api/products
 
