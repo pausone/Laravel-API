@@ -1,6 +1,28 @@
 # Laravel-API
 Laravel CRUD API with access control. 
 
+## Token usage examples
+### In header:
+
+Authorization: Bearer 12345konnrtijeoskeflkfnapj1230945unqnvlsnf
+
+### In JSON:
+#### Logout
+{"api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"}
+
+#### When adding or updating product
+
+{
+    "name": "product name",
+    "description": "product desc",
+    "price": "30",
+    "image": "http://lorempixel.com/150/150/technics/5",
+    "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"
+}
+
+
+
+
 ## Register
 URL: /api/register
 
