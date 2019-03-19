@@ -80,7 +80,7 @@ Use token
 
 Authorization: Bearer 12345konnrtijeoskeflkfnapj1230945unqnvlsnf
 
-### In JSON:
+### With JSON:
 #### Logout
 {"api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"}
 
