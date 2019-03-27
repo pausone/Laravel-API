@@ -1,5 +1,7 @@
 # Laravel-API
-Laravel CRUD API with access control. 
+Laravel CRUD API with access control.
+
+TODO: Validation
 
 ## Register
 URL: /api/register
