@@ -12,7 +12,7 @@ JSON: {"name": "John", "email": "john.doe@mail.com", "password": "securepwd12345
 
 Response:
 
-{"data": { "name": "John", "email": "john.doe@mail.com", "updated_at": "2019-03-15 08:10:45", "created_at": "2019-03-15 08:10:45", "id": 12, "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf" }}
+{"data": { "name": "John", "email": "john.doe@mail.com", "updated_at": "2019-03-15 08:10:45", "created_at": "2019-03-15 08:10:45", "id": 12, "api_token": "WU5AwazkTCsUSuKND1ayjVZ6lSmgGWkMEk13OrHcBjkAHainDfFbcEeunDBr" }}
 ## Login
 URL: /api/login
 
@@ -30,7 +30,7 @@ Response:
         "email_verified_at": null,
         "created_at": "2019-03-18 12:50:37",
         "updated_at": "2019-03-19 08:22:55",
-        "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"
+        "api_token": "WU5AwazkTCsUSuKND1ayjVZ6lSmgGWkMEk13OrHcBjkAHainDfFbcEeunDBr"
     }
 }
 ## Logout
@@ -38,7 +38,7 @@ URL: /api/login
 
 Method: POST
 
-JSON: {"api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"}
+JSON: {"api_token": "WU5AwazkTCsUSuKND1ayjVZ6lSmgGWkMEk13OrHcBjkAHainDfFbcEeunDBr"}
 ## Get all products (no auth required)
 URL: /api/products
 
@@ -80,7 +80,7 @@ Use token
 ## Token usage examples
 ### In header:
 
-Authorization: Bearer 12345konnrtijeoskeflkfnapj1230945unqnvlsnf
+Authorization: Bearer WU5AwazkTCsUSuKND1ayjVZ6lSmgGWkMEk13OrHcBjkAHainDfFbcEeunDBr
 
 ### With JSON:
 #### Logout
@@ -93,5 +93,5 @@ Authorization: Bearer 12345konnrtijeoskeflkfnapj1230945unqnvlsnf
     "description": "product desc",
     "price": "30",
     "image": "http://lorempixel.com/150/150/technics/5",
-    "api_token": "12345konnrtijeoskeflkfnapj1230945unqnvlsnf"
+    "api_token": "WU5AwazkTCsUSuKND1ayjVZ6lSmgGWkMEk13OrHcBjkAHainDfFbcEeunDBr"
 }
